@@ -25,17 +25,16 @@
             "generator":"secret"
         }
     },
-    "image":"heroku/php",
     "addons": [
       "heroku-postgresql:hobby-dev",
       "mongolab:sandbox"
     ],
     "buildpacks": [
       {
-        "url": "heroku/php"
+        "url": "heroku/nodejs"
       },
       {
-        "url": "heroku/nodejs"
+        "url": "heroku/php"
       }
     ],
     "environments":{
