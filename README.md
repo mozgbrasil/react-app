@@ -8,7 +8,7 @@
 
 ## Sinopse
 
-Automação para criação de projeto usando [React](https://reactjs.org/) na [Heroku](https://www.heroku.com/)
+Automações usando [React](https://reactjs.org/) rodando na [Heroku](https://www.heroku.com/)
 
 ## Motivação
 
