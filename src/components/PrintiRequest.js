@@ -73,23 +73,22 @@ export default class PrintiRequest extends React.Component {
 
     var request = {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        "api-key": "9009f95101bf48b01a50928a2a71ed1ae9083fc1d3c08439b0613dfc38e656c5",
-      },
       body: body
     };
 
     console.log('request', request);
 
-    fetch('https://intense-woodland-47068.herokuapp.com/php/actions.php?printi=true', request)
+    var url = 'https://heroku-rect-app-mozg.herokuapp.com/php/actions.php?printi=true';
+    //var url = 'http://localhost.loc/react-app/build/php/actions.php?printi=true';
+
+    fetch(url, request)
     //.then(response => (response.json()))
     .then((response) => {
       console.log('fetch response', response)
       this.update('responseHTT');
       if (typeof response !== 'undefined') {
 
-        if (response.status !== '200') {
+        if (response.status !== 200) {
             alert('Status: ' + response.status)
         }
 
