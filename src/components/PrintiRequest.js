@@ -82,7 +82,7 @@ export default class PrintiRequest extends React.Component {
 
     console.log('request', request);
 
-    fetch('https://api.intelipost.com.br/api/v1/quote', request)
+    fetch('https://intense-woodland-47068.herokuapp.com/php/actions.php?printi=true', request)
     //.then(response => (response.json()))
     .then((response) => {
       console.log('fetch response', response)
