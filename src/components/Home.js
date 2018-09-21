@@ -7,6 +7,7 @@ function Home() {
       <div className="title">Bem Vindo a Mozg App!</div>
       <section>
         <p>Aqui vai ser concentrado diversas automações usando o universo React!</p>
+        <p>2109 1559</p>
       </section>
     </Wrapper>
   );
