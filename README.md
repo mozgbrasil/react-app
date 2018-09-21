@@ -6,18 +6,118 @@
 
 # @mozg/react-app
 
+## Sinopse
 
+Automação para criação de projeto usando [React](https://reactjs.org/) na [Heroku](https://www.heroku.com/)
+
+## Motivação
+
+Evangelizar a plataforma [React](https://reactjs.org/)
+
+## Característica técnica
+
+Para o aplicativo o Heroku usa o arquvo [app.json](app.json)
+
+Para a implantação o Heroku usa o arquvo [package.json](package.json)
+
+Como a Heroku trabalha com o [NPM](https://www.npmjs.com/), todas as dependências a ser usada no projeto está registrada no arquivo [package.json](package.json)
+
+## Descrição
+
+Um aplicativo [React](https://reactjs.org/) usando [Express 4](http://expressjs.com/).
+
+# Executando Localmente
+
+Certifique-se de ter o [Node.js](https://nodejs.org/)
+
+    git clone git@github.com:mozgbrasil/react-app.git
+    cd react-app
+    npm install
+    npm start
+
+Seu aplicativo agora deve estar em execução em [http://localhost:5000/](http://localhost:5000/)
+
+## Implantando na Heroku
+
+Clique abaixo para implantar o aplicativo na sua conta na [Heroku](https://www.heroku.com/)
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mozgbrasil/react-app)
+
+Em seguida clique no botão "Deploy"
+
+Ao finalizar a implantação do aplicativo será exibido a mensagem "Your app was successfully deployed."
+
+Clique no botão "View"
+
+Será carregado o aplicativo
+
+Em seguida você pode fazer um fork desse repositório e fazer as alterações necessárias, certifique de apontar o seu repositório na Heroku e habilitar a implantação automatica.
+
+## Sobre o aplicativo para o Heroku
+
+Esse aplicativo foi desenvolvido pela [MOZG](http://mozg.com.br/) e se encontra disponível no seguinte repositório no github [https://github.com/mozgbrasil/react-app](https://github.com/mozgbrasil/react-app), qualquer contribuição é bem vinda.
+
+## Documentação
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
+
+https://github.com/nodesource/distributions#installation-instructions
+
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+node -v
+npm -v
+```
+
+https://reactjs.org/
 
 https://github.com/facebook/create-react-app
 
 
 ```
 npm init react-app react-app
-
 npm start
 ```
 
-## About
+https://storybook.js.org/
+
+```
+npm i -g @storybook/cli
+getstorybook
+
+npm run storybook
+```
+
+https://github.com/thedaviddias/Front-End-Checklist
+
+https://material-ui.com/
+
+https://blog.rocketseat.com.br/react-material-ui/
+
+```
+npm install @material-ui/core
+npm install @material-ui/icons
+```
+
+https://codingthesmartway.com/getting-started-with-material-ui-for-react-material-design-for-react/
+
+```
+npm install contentful
+```
+
+https://material-ui.com/premium-themes/
+
+https://github.com/creativetimofficial/material-dashboard-react
+
+https://medium.com/@khwsc1/step-by-step-guide-of-simple-routing-transition-effect-for-react-with-react-router-v4-and-9152db1566a0
+
+
+:cat2:
+:cat2:
+
+## Sample
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
